@@ -1,10 +1,12 @@
 package com.exercicis;
 
+import java.util.Locale;
 import java.util.Scanner;
 
 public class Resolt0000 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        Locale localeUS = Locale.US;
 
         System.out.print("Escriu el primer número: ");
         int x = scanner.nextInt();
