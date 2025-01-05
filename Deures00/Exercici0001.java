@@ -9,10 +9,12 @@ public class Exercici0001 {
         Locale localeUS = Locale.US;
 
         System.out.print("Escriu el pes (kg): ");
-        double pes = scanner.nextDouble();
+        String pes_input = scanner.nextLine();
+        double pes = Double.parseDouble(pes_input.replace(',', '.'));
 
         System.out.print("Escriu l'alçada (cm): ");
-        double altura = scanner.nextDouble();
+        String altura_input = scanner.nextLine();
+        double altura = Double.parseDouble(altura_input.replace(',', '.'));
 
         altura = altura / 100;
 
